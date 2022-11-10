@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    margin: auto;
+    width: 100%;
+}
+#div-imagem{
+    margin: auto;
+    width: 90vw;
+}
+main{
+    width: 70vw;
+    margin: auto;
+    max-width: 1000px;
+
+}
+h3, h2, h1, p{
+    color: rgb(148, 148, 148) ;
+    text-align: left;
+    margin: 15px;
+}
+p{
+    color: rgb(209, 209, 209);
+}
+h1{
+    text-align: center;
+}
+
+#inome, #iemail{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+#button{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top:5px;
+    width: 100px;
+    height: 40px;
+    color: gray;
+    background-color: white;
+    font-size: larger;
+    margin-left: 15px;
+}
